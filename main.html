@@ -1,0 +1,55 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+        <title>Voice Over Calculator</title>
+    </head>
+    <body>
+        <div id="bodycontainer">
+            <div id="calculatorbody">
+                <div id="answer">
+                    <div id="outputText">
+                        <div id="history">
+                            <p id="historyValue"></p>
+                        </div>
+                        <div id="output">
+                            <p id="outputValue"></p>
+                        </div>
+                    </div>
+                    <div id="outputMicrophone">
+                            <span id="microphone">
+                            </span>
+                            <span class="tooltip">Operations are plus, minus, multiply, divide & reminder.
+                                Say number + operation + number<br><br>
+                                Eg: 2 multiply 5 will be 2 * 5
+                            </span>
+                    </div>
+                </div>
+                <div id="typed">
+                        <button class="operator ocolor" id="clear">AC</button>
+                        <button class="operator ocolor" id="backspace">-></button>
+                        <button class="operator ocolor" id="%">%</button>
+                        <button class="operator" id="/">/</button>
+                        <button class="number" id="7">7</button>
+                        <button class="number" id="8">8</button>
+                        <button class="number" id="9">9</button>
+                        <button class="operator" id="*">*</button>
+                        <button class="number" id="4">4</button>
+                        <button class="number" id="5">5</button>
+                        <button class="number" id="6">6</button>
+                        <button class="operator" id="-">-</button>
+                        <button class="number" id="1">1</button>
+                        <button class="number" id="2">2</button>
+                        <button class="number" id="3">3</button>
+                        <button class="operator" id="+">+</button>
+                        <button class="empty" id="empty"></button>
+                        <button class="number" id="0">0</button>
+                        <button class="empty" id="empty"></button>
+                        <button class="operator" id="=">=</button>
+                </div>
+            </div>
+        </div>
+        <script src="operations.js"></script>
+    </body>
+</html>
